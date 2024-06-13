@@ -5,6 +5,31 @@ package session_3_java_operators.challenge;
 public class Challenge5 {
 
     public static void main(String[] args) {
+    // +=,-=,*=,/=,%=,<<=, >>=, &=, ^=,|=
+
+        int x = 2;
+        int y = 4;
+
+        x +=y;
+        System.out.println("After x +=y, x = " + x);
+        x -=y;
+        System.out.println("After x -=y, x = " + x);
+        x *=y;
+        System.out.println("After x *=y, x = " + x);
+        x /=y;
+        System.out.println("After x /=y, x = " + x);
+        x %=y;
+        System.out.println("After x %=y, x = " + x);
+        x <<=y;
+        System.out.println("After x <<=y, x = " + x);
+        x >>=y;
+        System.out.println("After x >>=y, x = " + x);
+        x  &=y;
+        System.out.println("After x &=y, x = " + x);
+        x ^=y;
+        System.out.println("After x ^=y, x = " + x);
+        x |=y;
+        System.out.println("After x |=y, x = " + x);
 
     }
 }
