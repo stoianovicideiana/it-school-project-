@@ -1,6 +1,4 @@
-package session_4_java_operators_and_loops;
-
-import java.sql.SQLOutput;
+package session_4_java_operators_and_loops.practice;
 
 public class JavaStatements {
 
