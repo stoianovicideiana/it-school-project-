@@ -1,4 +1,4 @@
-package session_6_java_core_apis.library_system;
+package session_6_java_core_apis.practice.library_system;
 
 public class Product {
 
