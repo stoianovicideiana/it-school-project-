@@ -15,13 +15,13 @@ public class ListPractice {
         //name = {Alice, Charlie, John};
 
         boolean isListEmpty = names.isEmpty();
-        //System.out.println("Is list empty? " + isListEmpty);
+        System.out.println("Is list empty? " + isListEmpty);
 
         for (String name : names) {
            // System.out.print(name + " ");
         }
 
-        List<String> fruits = new ArrayList<>(Arrays.asList("Apple, Banana, Mango"));
+        List<String> fruits = new ArrayList<>(Arrays.asList("Apple", "Banana" , "Mango"));
         System.out.println(fruits.contains("Apple"));
 
         String mangoValue = fruits.get(2);
