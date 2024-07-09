@@ -1,4 +1,6 @@
-package session_10_oop_concepts.practice.oop_design;
+package session_10_oop_concepts.session_10_oop_concepts.practice.oop_design;
+
+import session_10_oop_concepts.practice.oop_design.OperatingSystem;
 
 public class Laptop {
 

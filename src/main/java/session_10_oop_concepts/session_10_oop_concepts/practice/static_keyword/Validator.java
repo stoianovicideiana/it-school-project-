@@ -1,4 +1,4 @@
-package session_10_oop_concepts.practice.static_keyword;
+package session_10_oop_concepts.session_10_oop_concepts.practice.static_keyword;
 
 public class Validator {
 
