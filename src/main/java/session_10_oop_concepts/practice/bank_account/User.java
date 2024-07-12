@@ -1,10 +1,5 @@
 package session_10_oop_concepts.practice.bank_account;
 
-import session_10_oop_concepts.practice.bank_account.Address;
-import session_10_oop_concepts.practice.bank_account.BankAccount;
-import session_10_oop_concepts.session_10_oop_concepts.practice.bank_account.Address;
-import session_10_oop_concepts.session_10_oop_concepts.practice.bank_account.BankAccount;
-
 import java.util.UUID;
 
 public class User {

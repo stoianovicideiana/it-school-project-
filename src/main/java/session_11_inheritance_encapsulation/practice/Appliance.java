@@ -29,6 +29,7 @@ class Refrigerator extends Appliance {
     }
 
     void function() {
+
         System.out.println("Refrigerator is cooling");
     }
 
@@ -37,11 +38,12 @@ class Refrigerator extends Appliance {
         super.function();//calls function() from Appliance
     }
 
+}
 
-    class TestRefrigerator {
-        public static void main(String[] args) {
-            Refrigerator refrigerator = new Refrigerator();
-            refrigerator.displayBrand();
-            refrigerator.work();
-        }
+class TestRefrigerator {
+    public static void main(String[] args) {
+        Refrigerator refrigerator = new Refrigerator();
+        refrigerator.displayBrand();
+        refrigerator.work();
     }
+}

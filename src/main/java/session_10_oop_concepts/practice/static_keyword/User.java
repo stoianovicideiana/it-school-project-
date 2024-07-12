@@ -6,6 +6,15 @@ public class User {
     private String secondName;
     private int age;
 
+    public User() {
+    }
+
+    public User(String firstName, String secondName, int age) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.age = age;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -28,5 +37,14 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + secondName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
