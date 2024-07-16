@@ -22,5 +22,16 @@ public class Student {
         this.CNP = CNP;
     }
 
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", birthDate=" + birthDate +
+                ", address=" + address +
+                ", age=" + age +
+                ", CNP='" + CNP + '\'' +
+                '}';
+    }
 }

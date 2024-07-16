@@ -16,4 +16,14 @@ public class Course {
         this.professorAssigned = professorAssigned;
     }
 
+    @Override
+    public String toString() {
+        return "Course{" +
+                "courseName='" + courseName + '\'' +
+                ", schedule='" + schedule + '\'' +
+                ", duration='" + duration + '\'' +
+                ", description='" + description + '\'' +
+                ", professorAssigned=" + professorAssigned +
+                '}';
+    }
 }
