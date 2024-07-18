@@ -7,7 +7,7 @@ public class Main {
         Bank bankB = new BankB();
         Bank bankC = new BankC();
 
-        System.out.println("Bank A balance: $ + bank);
+        //System.out.println("Bank A balance: $ " + bank);
 
     }
 }
