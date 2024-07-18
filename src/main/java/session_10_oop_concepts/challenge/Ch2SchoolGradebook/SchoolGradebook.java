@@ -16,10 +16,9 @@ public class SchoolGradebook {
 
         Gradebook gradebook = new Gradebook(teacherName, className);
 
-        public void printSchoolGradebookReport {
-            System.out.println("Class Report for: " + className + " by " + teacherName);
-            System.out.println("");
+        //public void printSchoolGradebookReport() {
+        //System.out.println("Class Report for: " + className + " by " + teacherName);
+        //System.out.println("");
         }
 
     }
-}
