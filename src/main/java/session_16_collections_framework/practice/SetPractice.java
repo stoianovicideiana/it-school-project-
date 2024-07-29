@@ -19,6 +19,7 @@ public class SetPractice {
     public static Set<String> mergeProducts(Set<String> firstSet, Set<String> secondSet) {
         Set<String> result = new HashSet<>(firstSet);
         result.addAll(secondSet);
+        return result;
     }
 
     public static void displayProducts(Set<String> products) {
