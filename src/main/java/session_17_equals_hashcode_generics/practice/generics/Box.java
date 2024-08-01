@@ -17,10 +17,10 @@ public class Box<T> {
     }
 
     public static void main(String[] args) {
-        Box<String> stringBox = new Box<>();
-        stringBox.setObj("Hello");
+        //Box<String> stringBox = new Box<>();
+        //stringBox.setObj("Hello");
 
-        System.out.println(stringBox.getObj());
+        //System.out.println(stringBox.getObj());
 
         Integer[] intArray = {2, 6, 9};
         String[] stringArray = {"Alice", "Bob", "Joe"};
